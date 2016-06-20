@@ -2,6 +2,9 @@ import os
 import site
 import sys
 
+# About site
+# http://www.cnblogs.com/cwgk/p/4564557.html
+
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 prev_sys_path = list(sys.path)
